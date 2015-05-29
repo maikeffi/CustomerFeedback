@@ -208,6 +208,7 @@ cultivate
 cure
 curious
 cute
+Exact
 dazzling
 debonair
 decent
@@ -609,6 +610,7 @@ peaceful
 peak
 pearl
 perfect
+perfectly
 perfect combination
 persevering
 persistent
@@ -936,6 +938,11 @@ witty
 wonder
 wondrous
 working
+works
+fits
+right
+cheap
+cheaper
 worldly
 worth
 worthy

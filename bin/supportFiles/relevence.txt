@@ -1,6 +1,19 @@
 Internet
 support
+perfect
+replace
+replacement
+replacing
 resolve
+delivery
+delivered
+operate
+operates
+price
+promised
+promise
+product
+installed
 recurring
 download
 usage
@@ -33,6 +46,7 @@ charges
 account
 HD
 TV
+box
 PIP
 ACCESS
 Invoice
@@ -160,7 +174,9 @@ solutions
 mouse
 keyboard
 statement
+return
 enter
 provision
 provisioned
 provisioning
+box

@@ -1,7 +1,9 @@
 doesn't
 didn't
 wouldn't
+expensive
 wasn't
+don't
 No
 not
 rude
@@ -119,7 +121,8 @@ cowardly
 crabby 
 cramped 
 cranky 
-crap 
+return
+replace
 crappy 
 crazy 
 creep
@@ -148,6 +151,8 @@ dazed
 dead
 deadly
 deceived
+squeeze
+wrong
 deceptive
 deception 
 deep 

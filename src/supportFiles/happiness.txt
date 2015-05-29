@@ -6,6 +6,7 @@ cheapest
 captivated
 finest
 glad
+gladly
 gleeful
 gleefully
 happiness
@@ -31,6 +32,7 @@ ultimate
 timeless
 thoroughly
 toppest
+satisfied
 trustworthy
 unbeatable
 unbeaten
