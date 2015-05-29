@@ -14,7 +14,7 @@ public class Runner {
 		// TODO Auto-generated method stub
 		
 		
-		List<String> input = func.loadInput(func.getfilePath("inputsample.txt","Input"));
+		List<String> input = func.loadInput(func.getfilePath("HackathonInput.txt","Input"));
 		List<String> positive = func.loadInput(func.getfilePath("positive.txt","Input"));
 		List<String> negative = func.loadInput(func.getfilePath("negative.txt","Input"));
 		List<String> frustration = func.loadInput(func.getfilePath("frustration.txt","Input"));
@@ -46,7 +46,8 @@ public class Runner {
 	    		List<String> sentRate = new ArrayList<String>();
 	    		for (String subStr: subject){
 	    			String subRate = "";
-	    			System.out.println(subStr);
+	    			//System.out.println(subStr);
+	    			func.log(subStr);
 	    			
 	    			words = func.splitByToken(subStr," ");
 	    			
@@ -64,7 +65,7 @@ public class Runner {
 	    				}
     					
     					if (func.getRating(relevence, wrdStr)){
-    						System.out.println(wrdStr);
+    						//System.out.println(wrdStr);
     							relFlag = true;
     						}
     					
@@ -130,29 +131,33 @@ public class Runner {
 	    			}
 	    			//System.out.println("--Sub brk--");
 	    			sentRate.add(subRate);
-	    			System.out.println(subRate);
+	    			//System.out.println(subRate);
+	    			func.log(subRate);
 	    		}
 	    		
 	    		
 	    	}
-	    	System.out.println("--Line relevenc flag : "+relFlag);
+	    	//System.out.println("--Line relevenc flag : "+relFlag);
+	    	func.log("--Line relevenc flag : "+relFlag);
 	    	if (!relFlag){
 	    		rate =rate*0;
 	    	}else {
 	    		relFlag =false;
 	    	}
 	    	
-	    	System.out.println("--Line rating : "+ rate);
-	    	System.out.println("--Line brk--");
+	    	//System.out.println("--Line rating : "+ rate);
+	    	func.log("--Line rating : "+ rate);
+	    	//System.out.println("--Line brk--");
+	    	func.log("--Line brk--");
 	    	if (rate > 0){result.add("Positive");};    	
 	    	if (rate < 0){result.add("Negative");};
 	    	if (rate == 0){result.add("Neutral");};
 	    	
 	    }
 	    
-	    for (String rest : result){
+	   /* for (String rest : result){
 	    	System.out.println(rest);
-	    }
+	    }*/
 	    func.writeOutput(result);
 	}
 	
