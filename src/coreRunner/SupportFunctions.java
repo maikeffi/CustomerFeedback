@@ -15,7 +15,7 @@ import java.util.StringTokenizer;
 
 public class SupportFunctions {
 	protected Properties prop = null;
-	public String getTokan(String item) throws Exception{
+	public String getToken(String item) throws Exception{
 		
 		if (prop == null){ 
 			prop = new Properties();

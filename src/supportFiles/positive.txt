@@ -1,10 +1,9 @@
 5 star
 a racing start
-a shining examle
+a shining example
 a step ahead
 a1
 absolutely
-absorbing
 abundance
 abundant
 accept
@@ -17,13 +16,12 @@ accountable
 ace
 achievement
 achieving
-action
 active
 activist
 acumen
 adaptable
 adds distinction
-adjust
+adjustable
 admirable
 admire
 affordable
@@ -46,7 +44,6 @@ airy
 alert
 aligned
 alive
-all systems
 alliance
 alluring
 alter
@@ -93,8 +90,10 @@ balanced
 bargain
 basic
 beaming
+beat
 beats
 beautiful
+behold
 believable
 believe
 benefactor
@@ -102,18 +101,15 @@ beneficent
 benefit
 benevolent
 benign
-best
 better
 bighearted
 big-hearted
-bits
 blessed
 bliss
 blissful
 bloom
 bold
 boost
-bounce
 bountiful
 bounty
 brainy
@@ -127,11 +123,8 @@ brilliant
 brimming
 brisk
 bubbly
-bunch
 buoyant
 burgeon
-buy
-calm
 candid
 capable
 captivating
@@ -142,8 +135,6 @@ celebrate
 centered
 cerebral
 certain
-change
-character
 charitable
 charming
 charm
@@ -155,8 +146,6 @@ cheerful
 cherish
 chic
 child's play
-choice
-civil
 clarity
 classy
 clean
@@ -167,7 +156,6 @@ closeness
 cognizant
 colorful
 colourful
-comedic
 comely
 comfortable
 comfy
@@ -179,11 +167,11 @@ compassionate
 compatible
 competent
 complete
-complex
 compliment
 comradeship
 conciliatory
 concise
+confide
 confidence
 confident
 congenial
@@ -220,7 +208,6 @@ cultivate
 cure
 curious
 cute
-daring
 dazzling
 debonair
 decent
@@ -265,13 +252,12 @@ dreamy
 drool
 dutiful
 dynamic
-each day
 eager
 earnest
 easy
-easy as 1 2 3 (abc)
 easy-going
 economy
+economical
 ecstasy
 ecstatic
 effervescent
@@ -296,6 +282,7 @@ engaging
 enhance
 enhancing
 enjoy
+enjoying
 enlightened
 enormous
 enormously
@@ -305,7 +292,6 @@ entertaining
 enthuse
 enthusiastic
 enticing
-entirely
 essence
 essential
 established
@@ -313,8 +299,6 @@ esteem
 esteemed
 ethical
 even-tempered
-everyday
-exact
 exactly
 excellent
 exceptional
@@ -324,15 +308,12 @@ exclusive
 exhilarating
 exhilaration
 exotic
-expand
 experienced
 expert
 explore
-express
+expressive
 exquisite
-extend your scope
 extol
-extra
 extraordinary
 exultant
 eye-catching
@@ -350,6 +331,9 @@ far-sighted
 fascinating
 fashionable
 fast
+favor
+favour
+favorite
 favourite
 feat
 felicitous
@@ -357,7 +341,6 @@ fertile
 fetching
 fine
 finesse
-finest
 first
 fit
 fizz
@@ -386,10 +369,8 @@ fruitful
 fulfilled
 full
 fun
-funny
 gallant
 galore
-gather
 generous
 genial
 genius
@@ -401,9 +382,7 @@ get up and glow
 gifted
 giggle
 give
-glad
 glamorous
-gleeful
 glitter
 glorious
 glow
@@ -419,7 +398,6 @@ goodhearted
 good-looking
 good-natured
 goodness
-goodness only knows
 gorgeous
 grace
 graceful
@@ -432,7 +410,6 @@ green
 gregarious
 grin
 grounded
-group
 grow
 growing demand
 guaranteed
@@ -447,7 +424,6 @@ healed
 healing
 healthful
 healthy
-heart
 heartwarming
 hearty
 heaven scent
@@ -457,10 +433,8 @@ helpful
 heroic
 Loved
 breeze
-hi!
 hilarious
 hip
-hold
 holy
 honest
 honored
@@ -468,20 +442,6 @@ hopeful
 hospitable
 hug
 humorous
-i affirm
-i allow
-i am willing
-i am.
-i can
-i choose
-i create
-i follow
-i know
-"i know, without a doubt"
-i make
-i realize
-i take action
-i trust
 idea
 ideal
 imaginative
@@ -490,7 +450,6 @@ impartial
 important
 impressive
 in every way
-in this moment
 increase
 incredible
 independent
@@ -503,6 +462,7 @@ innovate
 innovative
 inspire
 inspired
+inspiring
 instant
 instantaneous
 instinct
@@ -517,9 +477,6 @@ invigorating
 invincible
 inviting
 irresistible
-it's 'in'
-jewel
-joined
 jolly
 jovial
 joy
@@ -529,9 +486,7 @@ jubilant
 jubilation
 judicious
 juicy
-just
 just like that
-k.o.
 keen
 keenest
 key
@@ -563,10 +518,8 @@ limitless
 lingering
 lively
 logical
-longest
 love
 loveliness
-lovely
 loving
 loyal
 lucid
@@ -575,15 +528,11 @@ lucky
 lucrative
 luminous
 luscious
-luxurious
 magic
-magical
 magnetic
-magnificent
 magnifies it
-maintain
 make dreams come true
-make my day
+made my day
 make the penny drop
 making an impression
 marvellous
@@ -591,15 +540,14 @@ marvelous
 master
 masterful
 masterly
-matchless
 mature
 maxi
+maximum
 maximum protection
 meaningful
 meditate
 memorable
 mend
-merciful
 meritorious
 merry
 metamorphosis
@@ -611,17 +559,14 @@ mint condition
 miracle
 miraculous
 mission
-mmmm
-moderate
 modern
 modest
 modify
 moral
-more
 motivate
 motivated
+motivation
 mouthwatering
-moving
 multi
 munchy
 natural
@@ -639,16 +584,11 @@ nourish
 nourished
 nourishing
 novel
-now
 nurture
 nurturing
 nutritious
-o.k.
 on my wavelength
 on the right foot
-one
-open
-ok
 openhanded
 open-minded
 optimistic
@@ -699,15 +639,12 @@ polite
 popular
 positive
 power
-powerful
-practical
 pragmatic
 precious
 prefer
 prepared
 prestige
 pretty
-priceless
 pride
 prime
 principle
@@ -717,41 +654,43 @@ productive
 professional
 profound
 progressive
-project
 prolific
 prominent
 prompt
 proper
 prosperous
 protect
+protected
 protection
 proud
 provident
 prudent
 punctual
 pure
-purpose
 purposeful
 qualified
 quenching
 quest
 quick
 quiet
-rad
+radiance
 radiant
 ravishing
-ready
-real
+really
+really well
 really cool
 reap
+reaps
+reaping
 reasonable
 receptive
 recognized
+recognised
+recommend
+recommended
 recommendation
 refined
 refinement
-reflective
-refresh
 refreshing
 rejoice
 rejoicing
@@ -779,8 +718,7 @@ respectful
 resplendent
 responsible
 responsive
-rest
-rest easy
+rests easy
 restore
 restrained
 revered
@@ -788,8 +726,6 @@ reverent
 revolutionize
 rewarding
 rich
-right
-right now
 righteous
 robust
 romantic
@@ -804,97 +740,76 @@ saintly
 sassy
 satisfaction
 satisfied
-save
 save a packet
 scholarly
 scores
 second to none
 secure
 seductive
-see
-seemly
-select
+seemingly
 self-reliant
 sensation
-sensational
 sensible
-sensitive
 sensual
-enjoying
 sentimental
 serene
 serenity
 set the pace
 Rocks
+result
 sexy
 shapely
-share
 sharing
 sharp
 sheer
-shift
-shine
+shiny
 shoulder to cry on
 shown
 shrewd
-shy
-silence
-silent
-silver
-simple
 sincere
 sincerity
-singular
+single-handed
+single-handedly
 sizzling
 skilful
 sky high
 solved
 recommend
+recommended
+sleek
 slick
 smart
+smartly
 smashing
 smile
 smiles
 smooth
 sociable
 soft
+solve
+solved
 "softly, softly"
 soft-spoken
-solar
 solid
-solution
 sophisticated
-sos
-so-so
-soul
 soulful
-sound
 sounds good
 sparkling
 special
-spectacular
 speed
 speedy
-spice
-spicy
 spirit
 spirited
 spiritual
-splendid
 spontaneous
 spotless
 sprite
 spruce
 spry
-sshhhh!
 stable
-stands supreme
 star
-star in its own right
 steady
 stillness
-stir
-stirring
 strong
 studious
 stunning
@@ -906,19 +821,17 @@ subtle
 success
 successful
 succulent
-sun
 sunny
 sturdy
 superlative
 supersonic
 supreme
-sure
+surely
 surprise
 sustain
 sweet
 swell
 swift
-sympathetic
 symphony
 synchronized
 systematic
@@ -935,9 +848,9 @@ tenacious
 tender
 terrific
 thankful
+Thank
+Thanks
 the bare necessities
-the one
-the ultimate
 therapeutic
 think ahead
 thorough
@@ -949,26 +862,23 @@ thrilling
 thrive
 thriving
 tidy
-tied
-timeless
 timely
 tingle
 tiny
-today
-together
 tolerant
 top
+topper
 totally
 tough
 traditional
 tranquil
 transform
+transformed
 transformation
 treasure
 treat
 trendy
 triumph
-true
 trust
 trusting
 truth
@@ -986,16 +896,12 @@ unusual
 unwavering
 upbeat
 upright
-v.i.p.
+useful
 valiant
 valuable
 valued
-vanish
-varied
-vary
 venerated
 venture
-versatile
 vibrant
 victor
 victorious
@@ -1003,14 +909,13 @@ victory
 vigorous
 vintage
 virtuous
-vision
 visionary
 visualize
 vital
+vitality
 vivacious
 vivid
 voyage
-warm
 wealth
 wealthy
 wee
@@ -1029,14 +934,12 @@ wise
 with everyone
 witty
 wonder
-wonderful
 wondrous
-works
 working
 worldly
+worth
 worthy
 wow
-yes
 young
 youthful
 yule
