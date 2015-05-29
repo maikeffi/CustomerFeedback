@@ -1,37 +1,25 @@
 package coreRunner;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Scanner;
-import java.util.Set;
-import java.util.StringTokenizer;
+
+
 
 public class Runner {
-
-	/**
-	 * @param args
-	 */
+	
+	public static SupportFunctions func =new SupportFunctions();
+	
 	public static void main(String[] args) throws IOException  {
 		// TODO Auto-generated method stub
 		
 		
-		List<String> input = loadInput(getfilePath("inputsample.txt"));
-		List<String> positive = loadInput(getfilePath("positive.txt"));
-		List<String> negative = loadInput(getfilePath("negative.txt"));
-		List<String> frustration = loadInput(getfilePath("frustration.txt"));
-		List<String> happiness = loadInput(getfilePath("happiness.txt"));
-		List<String> negiMulti = loadInput(getfilePath("negativeMuliplier.txt"));
+		List<String> input = func.loadInput(func.getfilePath("inputsample.txt","Input"));
+		List<String> positive = func.loadInput(func.getfilePath("positive.txt","Input"));
+		List<String> negative = func.loadInput(func.getfilePath("negative.txt","Input"));
+		List<String> frustration = func.loadInput(func.getfilePath("frustration.txt","Input"));
+		List<String> happiness = func.loadInput(func.getfilePath("happiness.txt","Input"));
+		List<String> negiMulti = func.loadInput(func.getfilePath("negativeMuliplier.txt","Input"));
 		List<String> sentence = new ArrayList<String>();
 		List<String> subject = new ArrayList<String>();
 		List<String> words = new ArrayList<String>();
@@ -40,25 +28,23 @@ public class Runner {
 		int nextMultiplier = 1;
 		boolean negiWord = false;
 		
-		/*Set<String> positive = loadDictionary("C:\\Users\\Administrator\\Desktop\\Hackathon\\CustomerFeedback\\src\\coreRunner\\positive.txt");
-	    Set<String> negative = loadDictionary("C:\\Users\\Administrator\\Desktop\\Hackathon\\CustomerFeedback\\src\\coreRunner\\negative.txt");
-	    Set<String> emotion= loadDictionary("C:\\Users\\Administrator\\Desktop\\Hackathon\\CustomerFeedback\\src\\coreRunner\\emotion.txt");*/
+		
 	    
 	    for (String str: input){
 	    	int rate = 0;
-	    	//System.out.println(str);
-	    	sentence = splitByToken(str,".");
-	    	//System.out.println(sentence.size());
+	    	
+	    	sentence = func.splitByToken(str,".");
+	    	
 	    	
 	    	for (String sentStr: sentence){
-	    		//System.out.println(sentStr);
-	    		subject = splitByToken(sentStr,",!");
+	    	
+	    		subject = func.splitByToken(sentStr,",!");
 	    		
 	    		List<String> sentRate = new ArrayList<String>();
 	    		for (String subStr: subject){
 	    			String subRate = "";
 	    			System.out.println(subStr);
-	    			words = splitByToken(subStr," ");
+	    			words = func.splitByToken(subStr," ");
 	    			
 	    			for(String wrdStr: words){
 	    				
@@ -67,7 +53,7 @@ public class Runner {
     						nextMultiplier = 1;
     					}
 	    				
-    					if(getRating(negiMulti,wrdStr) & !negiWord){
+    					if(func.getRating(negiMulti,wrdStr) & !negiWord){
 	    					
     						negiWord = true;
     						run = 0;
@@ -81,7 +67,7 @@ public class Runner {
     					}
     					
 	    				
-	    				if (getRating(positive,wrdStr)){
+	    				if (func.getRating(positive,wrdStr)){
 	    					rate = rate + (1*nextMultiplier);
 	    					
 	    					if(nextMultiplier ==1){ subRate = subRate + "+1|";}
@@ -91,7 +77,7 @@ public class Runner {
 	    						run++;
 	    						//System.out.println(run);
 	    						}
-	    				}else if(getRating(happiness,wrdStr)){
+	    				}else if(func.getRating(happiness,wrdStr)){
 	    					rate = rate +(3*nextMultiplier);
 	    					
 	    					if(nextMultiplier ==1){ subRate = subRate + "+3|";}
@@ -102,7 +88,7 @@ public class Runner {
 	    						run++;
 	    						//System.out.println(run);
 	    						}
-	    				}else if(getRating(negative,wrdStr)){
+	    				}else if(func.getRating(negative,wrdStr)){
 	    					rate = rate +(-1*nextMultiplier);
 	    					//subRate = subRate + "-1|";
 	    					if(nextMultiplier ==-1){ subRate = subRate + "+1|";}
@@ -112,7 +98,7 @@ public class Runner {
 	    						run++;
 	    						//System.out.println(run);
 	    						}
-	    				}else if(getRating(frustration,wrdStr)){
+	    				}else if(func.getRating(frustration,wrdStr)){
 	    					rate = rate +(-3*nextMultiplier);
 	    					//subRate = subRate + "-3|";
 	    					if(nextMultiplier ==1){ subRate = subRate + "-3|";}
@@ -131,32 +117,13 @@ public class Runner {
 	    						}
 	    				}
 	    				
-	    				/*if(positive.contains(wrdStr)){
-	    					
-	    					rate = "1";
-	    					subRate = subRate + rate;	    					
-	    				}else if(negative.contains(wrdStr)){
-	    					rate = "-1";
-	    					subRate = subRate + rate;
-	    				}else {
-	    					rate = "0";
-	    					subRate = subRate + rate;
-	    				}*/
 	    				
-	    				//System.out.println(wrdStr+"||"+rate);
 	    			}
 	    			//System.out.println("--Sub brk--");
 	    			sentRate.add(subRate);
 	    			System.out.println(subRate);
 	    		}
-	    		/*for (String rte:sentRate){
-	    			if ( rte.length() > 0 ){
-	    			    	System.out.println(rte);
-	    			}
-
-	    			
-	    		}*/
-	    		//System.out.println("--Sent brk--");
+	    		
 	    		
 	    	}
 	    	System.out.println("--Line rating : "+ rate);
@@ -169,92 +136,9 @@ public class Runner {
 	    for (String rest : result){
 	    	System.out.println(rest);
 	    }
-	    writeOutput(result);
+	    func.writeOutput(result);
 	}
 	
-	/*public static Set<String> loadDictionary(String fileName) throws IOException {
-	    Set<String> words = new HashSet<String>();
-	    File file = new File(fileName);
-	    BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
-	    Scanner sc = new Scanner(br);
-	    while (sc.hasNext()) {
-	        words.add(sc.next());
-	    }
-	    br.close();
-	    return words;
-	}*/
-	public static List<String> loadInput(String fileName) throws IOException {
-		List<String> lines = new ArrayList<String>();
-		
-		BufferedReader in = null;
-        FileReader fr = null;
-        try {
-            fr = new FileReader(fileName);
-            in = new BufferedReader(fr);
-            String str;
-            while ((str = in.readLine()) != null) {
-            	lines.add(str);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        } finally {
-            in.close();
-            fr.close();
-        }
-
-		
-		return lines;
-	}
 	
-	public static List<String> splitByToken(String str, String token){
-		List<String> split = new ArrayList<String>();
-		StringTokenizer multiTokenizer = new StringTokenizer(str,token);
-		while (multiTokenizer.hasMoreTokens())
-		{
-			split.add(multiTokenizer.nextToken());
-		}
-
-		return split;
-	}
 	
-	public static boolean  getRating(List<String> list,String str){
-		boolean flag = false ;
-		
-		for (String dicStr: list){
-			if (dicStr.trim().equalsIgnoreCase(str.trim())){
-				flag = true;
-				break;
-			}
-		}
-		
-		return flag;
-		
-	}
-	
-	public static String getfilePath(String fl){
-		String filename = null;
-		String path = System.getProperty("user.dir");
-		String cwd = "\\src\\coreRunner\\"+fl;
-		filename = path + cwd;
-			
-		return filename;
-
-	}
-	
-	public static void writeOutput(List<String> result){
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-		try{
-			 FileWriter fstream = new FileWriter(getfilePath("FeedBackOutput"+timeStamp+".txt"));
-			 BufferedWriter out = new BufferedWriter(fstream);
-			 for (String str:result){
-			 out.write(str);
-			 out.newLine();
-			 }
-			 out.close();
-			 }catch (Exception e){
-			  System.err.println("Error: " + e.getMessage());
-			 }
-
-		
-	} 
 }
